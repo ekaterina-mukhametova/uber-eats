@@ -1,0 +1,363 @@
+body {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    margin:auto;
+    overflow-x: hidden;
+}
+
+@media (max-width: 767px) { 
+    .card_Pushkin_background {
+        background-image: url(img/traktir_mobile_img.png);
+        height: 255px;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .card_Pushkin_container {
+        width: 320px;
+        margin-bottom:0;
+        margin-top: 0;   
+    }
+    .card_Pushkin {
+        top: 56px;
+    }
+    .card_Pushkin_body {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card_Pishkin_headline {
+        padding: 24px 49px 0 49px;
+        font-size: 24px;
+       line-height: 28px;
+    }
+    .card_Pushkin_body_kitchen_type {
+        padding: 40px 91px 16px 91px;
+    }
+    .card_Pushkin_body_time {
+        background-size: cover;
+        width:  100px;
+        height: 32px;
+        margin: 0 105px 24px 105px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .menu {
+        display:none;
+    }
+    .snacks {
+        width: 320px;    
+    }
+    .snacks_headline_container {
+        flex-direction: column;
+        justify-content: center;
+        margin:auto;
+    }
+    .snacks_headline {
+        padding-top: 55px;
+        margin-left: auto;
+        margin-right: auto;
+
+        
+    }
+    .snacks_headline_border {
+        width: 50px;
+        border-top: solid 1px #757575;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom: 43px;
+        
+    }
+    .snacks_card {
+        margin-bottom: 16px;
+    }
+    .snacks_card_body {
+        border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .snacks_card_position {
+        font-size: 14px;
+        overflow:hidden;
+        padding-right: 18px;
+    }
+    .snacks_card_ingredients {
+        padding-bottom: 16px;
+    }
+    .snacks_card_img {
+        width: 102px;
+        height: 102px;
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {  
+    .card_Pushkin_background {
+        background-image: url(img/traktir_tablet_img.png);
+        height: 364px;
+        align-items: center;
+        justify-content: center;
+    }
+    .card_Pushkin_container {
+        width: 768px;  
+    }
+    .card_Pushkin {
+        left: 8px;
+    }
+    .card_Pishkin_headline {
+        padding: 38px 45px 0 48px;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .card_Pushkin_body_kitchen_type {
+        padding: 62px 66px 46px 48px;
+    }
+    .card_Pushkin_body_time {
+        background-size: 94px 32px;
+        width: 94px;
+        height: 32px;
+        margin: 54px 32px 38px 0;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .menu {                         
+        background: #FFFFFF;
+        border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+        width: auto;
+        
+    }
+    .menu_container {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #626262;
+        display:flex;
+        width: 768px;
+        justify-content: space-between;
+        padding-right: 155px;
+        padding-top: 32px;
+        padding-bottom: 29px;
+        margin:auto;   
+    }
+    .snacks {
+        width: 768px;
+    }
+    .snacks_headline {
+        padding-left: 8px;
+        padding-bottom: 32px;
+    }
+    .snacks_headline_border {
+        display: none;
+    }
+    .snacks_card {
+        margin-bottom: 32px;
+    }
+    .snacks_card_body {
+        border: 1px solid rgba(117, 117, 117, 0.2);
+        padding-left: 24px;
+        padding-bottom: 16px;
+        width: 100%;
+    }
+    .snacks_card_body_1 {
+        background:rgba(117, 117, 117, 0.04);
+       
+    }
+    .snacks_card_position {
+        font-size: 16px;
+    }
+    .snacks_card_position_padding_top_1 {
+        padding-top: 16px;
+    }
+    
+    .snacks_card_img {
+        width: 200px;
+        height: 160px;
+    }
+} 
+
+@media screen and (min-width: 1200px) { 
+    .card_Pushkin_background {
+        background-image: url(img/traktir_dekstop_img.png);
+        height: 364px;
+        align-items: center;
+        justify-content:center;
+    }
+    .card_Pushkin_container {
+        width: 1124px;
+    }
+    .card_Pushkin {
+        left: 81px;
+    }
+    .card_Pishkin_headline {
+        padding: 38px 38px 0 38px;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .card_Pushkin_body_kitchen_type {
+        padding: 62px 50px 46px 38px;
+    }
+    .card_Pushkin_body_time {
+        background-size: cover;
+        width: 100px;
+        height: 32px;
+        margin: 54px 29px 38px 0;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .menu {                         
+        background: #FFFFFF;
+        border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+        width: auto; 
+    }
+    .menu_container {
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #626262;
+        display:flex;
+        width: 1124px;
+        justify-content: space-between;
+        padding-left: 81px;
+        padding-right: 438px;
+        padding-top: 32px;
+        padding-bottom: 29px;
+        margin:auto;  
+    }
+    .snacks {
+        width: 1124px;
+    }
+    .snacks_headline {
+        padding-left: 81px; 
+        padding-bottom: 32px;
+    }
+    .snacks_headline_border {
+        display: none;
+    }
+    .snacks_card {
+        width: 100%;
+    }
+    .snacks_card_body {
+        border: 1px solid rgba(117, 117, 117, 0.2);
+        padding-left: 16px;
+        padding-bottom: 16px;
+        width: 100%;
+    }
+    .snacks_card_body_1 {
+        background:rgba(117, 117, 117, 0.04);
+    }
+    .snacks_card_position {
+        font-size: 16px;
+    }
+    .snacks_card_position_padding_top_1 {
+        padding-top: 16px;
+    }
+    .snacks_card_img {
+        width: 170px;
+        height: 160px;
+    }
+    .snacks_card {
+        margin-bottom: 49px;
+    }
+}
+
+.card_Pushkin_background {
+    margin-top:72px;
+    background-size: 100%;
+    display:flex; 
+}
+
+.card_Pushkin {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    padding: 0;
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+}
+
+.card_Pishkin_headline {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.card_Pushkin_body {
+    display: flex;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.card_Pushkin_body_kitchen_type {
+    font-size: 14px;
+    line-height: 16px;
+    color: #626262;
+    margin:0;
+}
+
+.card_Pushkin_body_time {
+    background-image: url(img/traktir_background_time.png);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+}
+
+.snacks {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #1D1D1D;
+    background:  #FFFFFF;
+    margin:auto;
+}
+
+.snacks_headline {
+    font-size: 22px;
+    line-height: 34px;
+    margin-top: 56px; 
+}
+
+.snacks_headline_container {
+    display: flex;
+}
+
+.snacks_card {
+    display:flex;
+}
+
+.snacks_card_body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.snacks_card_position {
+    font-weight: normal;
+    line-height: 24px;
+    color: #1D1D1D;
+    overflow: hidden;  
+}
+
+.snacks_card_position_padding_top_other {
+    padding-top: 16px;
+}
+
+.snacks_card_ingredients {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.snacks_card_price {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1D1D1D;
+}
