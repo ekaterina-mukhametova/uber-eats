@@ -1,0 +1,94 @@
+body {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    margin:auto;
+}
+
+@media (max-width: 767px) {
+    .scrolls {
+        width: 308px;
+    }                                 
+}
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+    .scrolls {
+        width: 752px;
+    }  
+}
+
+@media screen and (min-width: 1200px) {                
+    .scrolls {
+        width: 956px;
+    }                  
+}
+
+.scrolls {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scrolls_search {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 79px;
+    width:100%;
+    margin-top: 72px;   
+}
+
+[placeholder="Поиск по ресторанам и кухням"] {
+    font-size: 16px;
+    line-height: 24px;
+    color: #626262;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.scrolls_head {
+    font-family: Roboto, sans-serif;
+    
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+    width: 100%;
+    padding-top: 57px;
+    text-align: left;
+}
+
+.scrolls_block_menu {
+    margin-top: 16px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.scrolls_block_menu_img {
+    padding-bottom: 16px;
+    width:100%;  
+}
+
+.scrolls_block_menu_type {
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.scrolls_block_menu_time {
+    font-size: 13px;
+    line-height: 21px;
+    color: #1D1D1D;
+    margin:0;
+    padding-bottom: 20px;
+}
+
+.scrolls_block_menu_link {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+    text-decoration: none;
+    padding-top: 16px;
+    
+}
