@@ -1,0 +1,83 @@
+header {
+    position:fixed;
+    z-index: 2;
+    top:0;
+    display:flex;
+    align-items:center;                
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    height: 72px;
+    background: #FFFFFF;
+    margin:auto;
+    width: 100%;
+    
+}
+.header_border {
+   
+    display:flex;
+    align-items:center; 
+    margin:auto;
+
+}
+.header_login_button {
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    
+}
+.header_login_text {
+    padding: 14px 20px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+.header_logo_uber {
+    padding-right: 8.47px;
+}
+@media (min-width: 768px) { 
+    .header_button_basket {
+        margin-right: 8px;
+        width: 40px;
+        height: 72px;
+    }
+}
+@media (max-width: 767px) {
+    .header_login_button {
+        margin-left: 112.22px;
+        margin-right: 16px;
+    }
+  
+    .header_border {
+        width: 320px;
+    }
+    .header_logo_uber {
+        padding-left: 8px;
+       
+    }
+    .header_button_basket {
+        display:none;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .header_login_button {
+        margin-left: 512.22px;
+    }
+   
+    .header_border {
+        width: 768px;
+    }
+    .header_logo_uber {
+        padding-left: 8px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .header_login_button {
+        margin-left: 702.38px;
+    }
+  
+    .header_border {
+        width: 1124px;
+    }
+    .header_logo_uber {
+        padding-left: 81.38px;
+    }
+}
